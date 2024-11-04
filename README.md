@@ -1,6 +1,6 @@
-# Basketball Scorecard App
+# Basketball Scorecard App 🏀
 
-This is My solution to the creating a Basketball scorecard app to life by using the latest skills i have learnt. Please feel free to comment, share and criticize its all appreciated. 
+This is My solution to creating a Basketball scorecard app to from scratch by using the latest skills i have learnt. Please feel free to comment, share and criticize its all appreciated. 
 
 ## Table of contents
 
