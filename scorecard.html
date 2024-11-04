@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scorecard.css">
+    <title>BasketBall scorecard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home__container">
+            <h3>HOME</h3>
+            <div class="home__scoreboard">
+                <h2 id="home-points">0</h2>
+            </div>
+            <div class="home__points__buttons">
+                <div class="home__points__button" onclick="addOneHome()">+1</div>
+                <div class="home__points__button" onclick="addTwoHome()">+2</div>
+                <div class="home__points__button" onclick="addThreeHome()">+3</div>
+            </div>
+        </div>
+        <div class="guest__container">
+            <h3>GUEST</h3>
+            <div class="guest__scoreboard">
+                <h2 id="guest-points">0</h2>
+            </div>
+            <div class="guest__points__buttons">
+                <div class="guest__points__button" onclick="addOneGuest()">+1</div>
+                <div class="guest__points__button" onclick="addTwoGuest()">+2</div>
+                <div class="guest__points__button" onclick="addThreeGuest()">+3</div>
+            </div>
+        </div>
+    </div>
+    <script src="scorecard.js"></script>
+</body>  
+</html>

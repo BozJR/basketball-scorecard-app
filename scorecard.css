@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: CursedTimer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(25, 25, 57);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: auto;
+    border: 12px solid black;
+    border-radius: 1.5rem;
+}
+
+.home__container,
+.guest__container {
+    /*border: 1px solid red;*/
+    text-align: center;
+    padding-bottom: 10rem;
+    margin-top: 4.5rem;
+}
+
+.home__container h3,
+.guest__container h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #9aabd8;
+    line-height: 35.9px;
+    font-size: 40px;
+    margin: 0 0 1.3rem 0;
+}
+
+.home__scoreboard,
+.guest__scoreboard {
+    background-color: black;
+    height: 120px;
+    width: 155px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.home__scoreboard h2,
+.guest__scoreboard h2 {
+    font-family: CursedTimer;
+    margin: 0;
+    color: rgb(171, 79, 79);
+    font-size: 90px;
+    font-weight: 100;
+    line-height: 126px;
+    position: relative;
+    top: 10px
+}
+
+.home__points__buttons,
+.guest__points__buttons {
+    display: flex;
+    justify-content: space-between;
+    font-family: CursedTimer;
+    margin: 2rem 0;
+}
+
+.home__points__button,
+.guest__points__button {
+    border: 1.5px solid #9aabd8;
+    width: 45px;
+    height: 45px;
+    border-radius: 0.5rem;
+    align-content: center;
+    color: #9aabd8;
+    font-size: 18px;
+    line-height: 25px;
+}
+
